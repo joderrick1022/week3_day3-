@@ -8,13 +8,13 @@ namespace week3_day3
 {
     class Vehicle
     {                                                //this is my base class.
-        private int seats;
-        private int carringCapacity;
-        private string color;
-        private double movementSpeed;
+        protected int seats;
+        protected int carringCapacity;
+        protected string color;
+        protected double movementSpeed;
         private float gearRatio;
         private float engineSize;
-        private double distanceTraveled;
+        protected double distanceTraveled;
 
         public double DistanceTraveled
         {
@@ -52,7 +52,7 @@ namespace week3_day3
 
         }
 
-        public void Move()
+        public virtual void Move()
         {
             distanceTraveled += movementSpeed;
         }

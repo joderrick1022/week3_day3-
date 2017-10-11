@@ -10,11 +10,19 @@ namespace week3_day3
     {
         static void Main(string[] args)
         {
-            //tests out vehicle class
-            Vehicle baseVehicle = new Vehicle(4, 2000, "green", 55.0d);
-            baseVehicle.Move();
+            ////tests out vehicle class
+            //Vehicle baseVehicle = new Vehicle(4, 2000, "green", 55.0d);
+            //baseVehicle.Move();
 
-            Console.WriteLine(baseVehicle.DistanceTraveled);
+            //Console.WriteLine(baseVehicle.DistanceTraveled);
+
+            Automobile herbie = new Automobile(4,13f,2,1500d,"white");
+            herbie.Move();
+            herbie.Move();
+
+            Console.WriteLine("Automobile Distance Traveled " + herbie.DistanceTraveled);
+
+            //abstract class vehicle
         }
     }
 }
