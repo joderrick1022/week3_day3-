@@ -20,9 +20,26 @@ namespace week3_day3
             herbie.Move();
             herbie.Move();
 
-            Console.WriteLine("Automobile Distance Traveled " + herbie.DistanceTraveled);
+            Console.WriteLine("Automobile Distance Traveled " + herbie.GetDistanceTraveled());
 
             //abstract class vehicle
+
+            Boat boaty = new Boat(2, 500, "Red", 88.0d, .9d);
+            {
+                boaty.Move();
+                boaty.Move();
+                Console.WriteLine("Boat " + boaty.GetDistanceTraveled());
+            }
+
+
+
+
+
+            Aircraft aircraft1 = new Aircraft(70, 100000, "Grey", 600.0d);
+            aircraft1.Move();
+            aircraft1.Move();
+            aircraft1.GetDistanceTraveled();
+            Console.WriteLine("Aircraft distance traveled " + aircraft1.GetDistanceTraveled());
         }
     }
 }
