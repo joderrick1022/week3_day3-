@@ -13,7 +13,7 @@ namespace week3_day3
 
         }
 
-        public Nurse(string employeeName, int employeeNumber, string department, int numberOfPatience, bool isPh){
+        public Nurse(string employeeName, int employeeNumber, string department, int numberOfPatience){
             }
 
 

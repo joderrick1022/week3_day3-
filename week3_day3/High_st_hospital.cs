@@ -54,6 +54,13 @@ namespace week3_day3
         }
 
 
+        public void  clockIn()
+        {
+            Console.WriteLine("welcome to your Job");
+            int time = int.Parse(Console.ReadLine()); 
+        }
+
+
 
 
 

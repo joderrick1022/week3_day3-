@@ -13,6 +13,11 @@ namespace week3_day3
 
         }
 
+        public Receptions(string employeeName,int emplyeeNumber,string department,bool isOnPhone)
+        {
+
+        }
+
         
     }
 }

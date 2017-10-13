@@ -42,11 +42,13 @@ namespace week3_day3
             //Console.WriteLine("Aircraft distance traveled " + aircraft1.GetDistanceTraveled());
 
 
-            Surgeon doc = new Surgeon()
+            Surgeon doc = new Surgeon("Joe", 4567, "Nursing", true);
 
-            {
 
-            }
+            doc.clockIn();
+            doc.IsOnPhone;
+
+            
 
         }
     }
