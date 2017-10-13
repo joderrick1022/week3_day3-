@@ -8,18 +8,19 @@ namespace week3_day3
 {
     class Surgeon:Doctor
     {
-
+        private bool isOperating ;
         public Surgeon()
         {
 
         }
 
-        public Surgeon(string employeeName,int employeeNumber,string department, int numberOfPatience)
+        public Surgeon(string employeeName, int employeeNumber, string department)
         {
             this.employeeName = employeeName;
             this.employeeNumber = employeeNumber;
             this.department = department;
-            this.numberOfPatience = numberOfPatience;
+            this.isOperating = false;
+
         }
     }
 }

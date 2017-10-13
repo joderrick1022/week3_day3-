@@ -17,6 +17,14 @@ namespace week3_day3
         private int heater;
         private int aC;
         private string alarm;
+        private int people;
+
+
+
+
+        //public int lights
+
+
 
 
 
